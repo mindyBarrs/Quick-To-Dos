@@ -1,0 +1,83 @@
+/* 
+    #5caaa8;
+    #7aa093;
+    #a19481;
+    #cb9071;
+    #d7a96b;
+*/
+
+body{
+    background: #d7a96b;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bowlby One SC', cursive;
+    color: #5caaa8;
+    text-shadow: 2px 3px #000;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    color: #a19481;
+    border-width: 5px;
+}
+
+.todos-list{
+    text-align: left;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.btn-submit{
+    background: #7aa093;
+    color: #000;
+    font-weight: bold;
+}
+.btn-submit:hover{
+    background: #d7a96b;
+    border: 1px solid #7aa093;
+    color: #7aa093;
+}
+
+.btn-private{
+    background: #cb9071;
+    color: #fff;
+    padding: 0px 10px;
+    margin: 15px;
+    font-weight: bold;
+}
+.btn-private:hover{
+    background: #fff;
+    color: #cb9071;
+    border: 1px solid #cb9071;
+}
+
+.btn-danger{
+    padding: 0px 10px;
+    margin: 15px;
+}
+.btn-danger:hover{
+    color: #d9534f;
+    border-color: 3px solid #d43f3a;
+    background: #fff;
+}
+
+.add-todo{
+    margin: 15px 0px;
+}
+
+#login-buttons{
+    margin: 15px 0px;
+}
+
+#login-buttons a{
+    color: #5caaa8;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2em;
+}
